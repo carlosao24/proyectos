@@ -34,11 +34,10 @@ public class Proyecto {
 
 	public Proyecto() {}
 
-	public Proyecto(String nombre, String descripcion, LocalDate fechaInicio, List<Tarea> tareas) {
+	public Proyecto(String nombre, String descripcion, LocalDate fechaInicio) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.fechaInicio = fechaInicio;
-		this.tareas = tareas;
 	}
 
 	public int getId() {
